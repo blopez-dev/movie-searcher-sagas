@@ -5,6 +5,7 @@ import globalStyles from './styles/index';
 const App = () => (
   <globalStyles>
     <Routing />
+    <p>Fer</p>
   </globalStyles>
 );
 
