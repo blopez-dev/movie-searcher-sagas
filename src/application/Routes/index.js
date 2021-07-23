@@ -4,14 +4,14 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
-import Header from '../Components/Header';
+import Presentation from '../Components/Layout/Layout';
+
 import Home from '../../pages/Home';
 import Cart from '../../pages/Cart';
 
 const Routing = () => (
   <Router>
-    <div>
-      <Header />
+    <Presentation className="layout">
       <Switch>
         <Route exact path="/">
           <Home />
@@ -20,7 +20,7 @@ const Routing = () => (
           <Cart />
         </Route>
       </Switch>
-    </div>
+    </Presentation>
   </Router>
 );
 export default Routing;
