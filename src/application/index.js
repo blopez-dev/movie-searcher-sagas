@@ -1,12 +1,11 @@
 import React from 'react';
 import Routing from './Routes';
-import globalStyles from './styles/index';
+import GlobalStyles from './styles/GlobalStyles';
 
 const App = () => (
-  <globalStyles>
+  <GlobalStyles>
     <Routing />
-    <p>Fer</p>
-  </globalStyles>
+  </GlobalStyles>
 );
 
 export default App;
